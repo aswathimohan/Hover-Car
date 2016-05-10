@@ -1,0 +1,29 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class HoverAudio : MonoBehaviour {
+
+	public AudioSource jetSound;
+	private float jetPitch;
+	private const float LowPitch = 0.1f;
+	private const float HighPitch = 2.0f;
+	private const float speedToRevs = 0.01f;
+
+	Vector3 myVelocity;
+	Rigidbody carRigidbody;
+
+	// Use this for initialization
+	void Awake () {
+		carRigidbody = GetComponent<Rigidbody>();
+	}
+	
+	// Update is called once per frame
+	void FixedUpdate () {
+
+		myVelocity = carRigidbody.velocity;
+		float forwardSpeed = transform.InverseTransformDirection (carRigidbody.velocity).z;
+		float engineRevs = Mathf.Abs (forwardSpeed) * speedToRevs;
+		jetSound.pitch = Mathf.Clamp (engineRevs, LowPitch, HighPitch);
+	
+	}
+}

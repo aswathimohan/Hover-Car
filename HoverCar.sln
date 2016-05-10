@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{66CAFF38-3D36-DAF0-4EC8-9373E9169753}") = "HoverCar", "Assembly-CSharp.csproj", "{98677109-4884-1D43-D43A-D26EDAEBD41A}"
+EndProject
+Project("{66CAFF38-3D36-DAF0-4EC8-9373E9169753}") = "HoverCar", "Assembly-CSharp-Editor.csproj", "{AF4013E4-686E-64B4-BE84-D28524CF12E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98677109-4884-1D43-D43A-D26EDAEBD41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98677109-4884-1D43-D43A-D26EDAEBD41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98677109-4884-1D43-D43A-D26EDAEBD41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98677109-4884-1D43-D43A-D26EDAEBD41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4013E4-686E-64B4-BE84-D28524CF12E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4013E4-686E-64B4-BE84-D28524CF12E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4013E4-686E-64B4-BE84-D28524CF12E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4013E4-686E-64B4-BE84-D28524CF12E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
